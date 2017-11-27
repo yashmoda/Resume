@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>I'm Yash Moda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<script>
+    $(document).ready(function () {
+        $('ul.tabs').tabs();
+    });
+</script>
+<style>
+    #name {
+        background-image: url('/static/image2.jpg');
+        height: 100vh;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translateX(-25%) translateY(-50%);
+    }
+    #about{
+        padding: 1em;
+    }
+</style>
+<body>
+<div class="row">
+    <div class="row col l8" id="name">
+        <div class="container">
+            <h3 style="color: white">
+                Hey I'm,
+            </h3>
+            <h1 style="color:white;">
+                Yash Moda
+            </h1>
+        </div>
+    </div>
+    <div class="row col l4">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s3"><a href="#about">About Me</a></li>
+                <li class="tab col s3"><a href="#academics">Academics</a></li>
+                <li class="tab col s3"><a href="#intern">Internships and Projects</a></li>
+                <li class="tab col s3"><a href="#extra">Extracurricular</a></li>
+            </ul>
+        </div>
+        <div id="about" class="col s12">
+            <p>
+                Yash is a Website and Android Backend Developer. He is very passionate about his work and never gives up on any problems. He is familiar with programming languages such as JAVA, C++, Python, HTML, CSS and JavaScript.
+            </p>
+            <p>
+                He is currently based in Raipur, Chattisgarh but he hails from Cuttack, Odisha.
+            </p>
+            <p>
+                His dream is to work on projects which excites and challenges him to improve his knowledge and technical skills. His job should provide him with an opportunity to learn something new everyday. So that it can help him with his overall growth and development.
+            </p>
+            <p>
+                He is calm, composed and confident. He believes that success lies in team work and is a very good team player. He is self-motivated and hardworking. He is always determined to complete the work assigned within the deadlines and does not believe in giving excuses.
+            </p>
+        </div>
+        <div id="academics" class="col s12" style="padding: 1em">
+            <p>
+                Yash has been a meritorious and hardworking student throughout his career.
+            </p>
+            <p>
+                He is currently in his IIIrd Semester pursuing Bachelor Of Technology (BTech) in Biotechnology at National Institute Of Technology, Raipur. His current Cumulative Performance Index(CPI) is 8.83.
+            </p>
+            <p>
+                He completed his Higher Secondary Education from Delhi Public School, Kalinga. He appeared All India Senior School Certificate Examination(AISSCE) in the year 2016 and scored 93.6%.
+            </p>
+            <p>
+                He
+            </p>
+        </div>
+        <div id="intern" class="col s12">
+            Test 3
+        </div>
+        <div id="extra" class="col s12">
+            Test 4
+        </div>
+    </div>
+</div>
+</body>
+</html>
